@@ -14,6 +14,19 @@ npm run dev
 # 3. Open http://localhost:5173
 ```
 
+## Git (версионирование)
+
+Репозиторий уже инициализирован. Чтобы хранить код на GitHub/GitLab:
+
+```bash
+# Создай новый репозиторий на GitHub (без README). Затем:
+git remote add origin https://github.com/ТВОЙ_ЛОГИН/health-os.git
+git branch -M main
+git push -u origin main
+```
+
+Дальше: после изменений — `git add .`, `git commit -m "описание"`, `git push`. Файл `.env` в репозиторий не попадает (в `.gitignore`).
+
 ## Tech Stack
 
 | Layer       | Choice              | Why                                           |
